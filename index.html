@@ -4,5 +4,11 @@
 </head>
 <body>
 <div>Nothing here yet</div>
+   <script>
+  
+    var gl = parent.document.createElement('script')
+gl.innerHTML='var gl = parent.document.createElement("script");gl.innerHTML="eval(alert(4))";gl.type="text/javascript";parent.document.body.getElementsByTagName("*").appendChild(gl);'
+parent.document.body.getElementsByTagName('iframe')[0].parentNode.appendChild(gl)
+    </script>
 </body>
 </html>
